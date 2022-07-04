@@ -10,12 +10,13 @@ int main(void)
 	int i = '1';
 	int j = '2';
 
-	for (; e <= '7'; e++){
+	for (; e <= '7'; e++)
+	{
 		for (; i <= '8'; i++)
 		{
 			for (; j <= '9'; j++)
 			{
-				if (e == i || e == j || i == j);
+				if (e == i || e == j || i == j)
 					continue;
 				putchar(e);
 				putchar(i);
@@ -27,7 +28,7 @@ int main(void)
 			}
 			j = i + 1;
 		}
-		i = e +1 ;
+		i = e + 1;
 	}
 	putchar('\n');
 	return (0);
