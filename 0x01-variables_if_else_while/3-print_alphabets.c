@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(c);
 	}
-	c = 'A'
+	c = 'A';
 	for (; c <= 'Z'; c++)
 	{
 		putchar(c);
