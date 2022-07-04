@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * 3-print_alphabets.c
+ * 8-print_base16.c
  * Return: Always 0 (Success)
  */
 int main(void)
