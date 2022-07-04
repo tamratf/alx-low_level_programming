@@ -10,8 +10,9 @@ int main(void)
 	int b = '0';
 	int c = '0';
 	int d = '1';
-	
-	for (; a <= '9'; a++){
+
+	for (; a <= '9'; a++)
+	{
 		for (; b <= '9'; b++)
 		{
 			for (; c <= '9'; c++)
