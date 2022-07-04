@@ -11,7 +11,7 @@ int main(void)
 	for (; i <= '9'; i++)
 	{
 		putchar(i);
-		if (c >= '9')
+		if (i >= '9')
 			break;
 		putchar(' ');
 		putchar(',');
