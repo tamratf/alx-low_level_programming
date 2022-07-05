@@ -1,4 +1,3 @@
-#include <_putchar.c>
 /**
  * main - Entry point
  * 0-putchar.c
@@ -15,6 +14,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	
+
 	return (0);
 }
