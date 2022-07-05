@@ -1,3 +1,4 @@
+#include "_putchar.c"
 /**
  * main - Entry point
  * 0-putchar.c
