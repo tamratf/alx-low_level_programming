@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * print_alphabet - Entry point
+ * _islower - checks for lowercase character
+ * @c: input character
  * 3-islower.c
  * Return: Always 0 (Success)
  */
 int _islower(int c)
 {
-	if (c <= 'z')
+	if (c >= 97 || c <= 122)
 		return (1);
 	else
 		return (0);
