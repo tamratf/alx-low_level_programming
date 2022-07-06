@@ -11,7 +11,7 @@ void times_table(void)
 	int n = 0;
 	int u = 0;
 	int t = 0;
-	
+
 	while (r < 10)
 	{
 		while (c < 10)
