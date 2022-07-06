@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int n;
+	long int n;
 	long int a = 1;
-	int b = 1;
+	long int b = 1;
 	long int s;
 
 	printf("%ld", a);
