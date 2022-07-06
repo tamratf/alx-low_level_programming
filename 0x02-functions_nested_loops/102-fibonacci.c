@@ -7,9 +7,9 @@
 int main(void)
 {
 	int n;
-	int a = 1;
+	long int a = 1;
 	int b = 1;
-	int s;
+	long int s;
 
 	printf("%d", a);
 	for (n = 1; n < 50; ++n)
