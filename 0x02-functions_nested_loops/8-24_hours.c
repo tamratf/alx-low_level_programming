@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * pjack_bauer - print hour
- * 
+ * jack_bauer - print hour
+ *
  * 78-24_hours.c
  */
 void jack_bauer(void)
