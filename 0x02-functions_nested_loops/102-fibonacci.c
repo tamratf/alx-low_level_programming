@@ -1,12 +1,15 @@
 #include <stdio.h>
 /**
  * main - main function
- *
- * Return: end program
+ * 102_fibonacci
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	long int n, a = 1, b = 1, s;
+	int n;
+	int a = 1;
+	int b = 1;
+	int s;
 
 	printf("%ld", a);
 	for (n = 1; n < 50; ++n)
@@ -16,7 +19,7 @@ int main(void)
 		a = b;
 		b = s;
 	}
-	putchar(10);
+	putchar('\n');
 
 	return (0);
 }
