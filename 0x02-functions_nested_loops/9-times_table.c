@@ -2,7 +2,7 @@
 /**
  * times_table - function to print times table
  *
- * Return: none - void function
+ * 9-times_table.c
  */
 void times_table(void)
 {
