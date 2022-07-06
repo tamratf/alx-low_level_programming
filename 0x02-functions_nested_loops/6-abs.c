@@ -1,5 +1,5 @@
 /**
- * _isalpha - checks for alphabetic character
+ * _abs - returns absolute value of an integer
  * @n: input number
  * 6-abs.c
  * Return: absolute value of an integer
