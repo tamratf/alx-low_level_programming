@@ -1,23 +1,23 @@
 #include "main.h"
 /**
  * largest_number - returns the largest number
- * @x: first number
- * @y: second number
- * @z: third integer
+ * @a: first number
+ * @b: second number
+ * @c: third integer
  * 2-largest_number.c
  * Return: the largest number
  */
-int largest_number(int x, int y, int z)
+int largest_number(int a, int b, int c)
 {
-	int l = x;
-	
-	if (y > x && y > z)
+	int l = a;
+
+	if (b > a && b > c)
 	{
-		l = y;
+		l = b;
 	}
-	else if (z > x && z > y)
+	else if (c > b && c > b)
 	{
-		l =z;
+		l = c;
 	}
 
 	return (l);
