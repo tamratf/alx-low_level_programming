@@ -1,23 +1,30 @@
 #include "main.h"
 /**
  * rot13 - encodes a string using rot13
- * @str: the string to encode
+ * @s: the string to encode
  *
  * Return: encode string
  */
 char *rot13(char *s)
 {
-	int i;
-	char storeh[] = "NOPQRSTUVWXYZABCDEFGHIJKLM";
-	char storel[] = "nopqrstuvwxyzabcdefghijklm";
+	int i = 0;
+	int j;
 
-	for (i = 0; s[i] != '\0'; i++)
+	char str1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char str2[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+	while (s[i])
 	{
-		if ((s[i] > 64 && s[i] < 91) || (s[i] > 96 && s[i] < 123))
+		for (j = 0; j < 52; j++)
 		{
-			s[i] = (s[i] - 65 > 25) ?
-				storel[s[i] - 97] : storeh[s[i] - 65];
+			if (s[i] == str1[j])
+			{
+				s[i] = str2[j];
+				break;
+			}
 		}
+
+		i++;
 	}
 	return (s);
 }
